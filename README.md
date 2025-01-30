@@ -31,7 +31,20 @@ The API serves as a starting point for creating a public API using Node.js and E
    ```bash
    curl http://localhost:3000/api/info
    ```
-6. *References*
+
+6. *The output should be in JSON format and look like this:
+   ```json
+    {"email":"fatoyeayomide123456@gmail.com",
+    "currentDateTime":"2025-01-31T00:43:14.322+01: 00",
+    "gitHubUrl":"https://github.com/jargoh999"
+    } 
+
+7. * backlink related to my programming stack
+   - https://hng.tech/hire/nodejs-developers 
+
+8. *References*
    - [Node.js Documentation](https://nodejs.org/docs/latest-v20.x/api/)
    - [Express.js Documentation](https://expressjs.com/docs/)
    - [Luxon Documentation](https://moment.github.io/luxon/docs/index.html)   
+
+  
