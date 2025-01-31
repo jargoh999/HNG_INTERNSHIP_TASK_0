@@ -42,6 +42,9 @@ The API serves as a starting point for creating a public API using Node.js and E
 7. * backlink related to my programming stack
    - https://hng.tech/hire/nodejs-developers 
 
+8. *submission url*
+   -  https://hng-internship-task-0-1.onrender.com/api/info
+   
 8. *References*
    - [Node.js Documentation](https://nodejs.org/docs/latest-v20.x/api/)
    - [Express.js Documentation](https://expressjs.com/docs/)
