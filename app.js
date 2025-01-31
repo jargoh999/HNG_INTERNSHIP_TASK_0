@@ -1,12 +1,12 @@
 import express from 'express';
-import { DateTime } from 'luxon';
+
 
 const app = express();
 const port = 3000;
-
+const utcDateTime = new Date().toISOString();
 app.get('/api/info', (req, res) => {
   const email = 'fatoyeayomide123456@gmail.com'; // Replace with your registered email
-  const current_datetime = DateTime.now().toISO();
+  const current_datetime = utcDateTime;
   const github_url = 'https://github.com/jargoh999/HNG_INTERNSHIP_TASK_0'; // Replace with your GitHub URL
   const response = {
     email,
