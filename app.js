@@ -7,7 +7,7 @@ const port = 3000;
 app.get('/api/info', (req, res) => {
   const email = 'fatoyeayomide123456@gmail.com'; // Replace with your registered email
   const current_datetime = DateTime.now().toISO();
-  const github_url = 'https://github.com/jargoh999'; // Replace with your GitHub URL
+  const github_url = 'https://github.com/jargoh999/HNG_INTERNSHIP_TASK_0'; // Replace with your GitHub URL
   const response = {
     email,
     current_datetime,
